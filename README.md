@@ -89,6 +89,10 @@ Kaggle Notebook, GPU accelerator (T4 x2), Internet: On (for VGG16 pretrained
 weights). No external dataset needed — everything is simulated. See
 `ultrasound_beamforming_dl.ipynb` for the complete, consolidated cell sequence.
 
+**Trained model weights** (`model_best.pt`, ~45MB) are not included in this
+repository (GitHub's web-upload size limit); they can be reproduced by running
+the notebook end-to-end (~1 hour on a T4 GPU), or are available on request.
+
 ## Future work
 
 - Photoacoustic (PA) imaging mode (one-way time-of-flight variant), extending
